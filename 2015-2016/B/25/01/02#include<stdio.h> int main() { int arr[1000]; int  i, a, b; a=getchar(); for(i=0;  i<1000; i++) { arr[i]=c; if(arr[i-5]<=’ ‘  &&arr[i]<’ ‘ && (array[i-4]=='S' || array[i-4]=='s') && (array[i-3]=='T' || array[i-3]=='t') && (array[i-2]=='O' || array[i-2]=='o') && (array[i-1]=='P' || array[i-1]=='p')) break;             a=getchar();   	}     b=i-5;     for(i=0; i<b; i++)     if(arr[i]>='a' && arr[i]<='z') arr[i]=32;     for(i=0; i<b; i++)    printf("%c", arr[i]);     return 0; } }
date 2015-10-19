@@ -1,0 +1,26 @@
+#Докато не срещне STOP
+
+#include<stdio.h>
+int main()
+{
+int arr[1000];
+int  i, a, b;
+a=getchar();
+for(i=0;  i<1000; i++)
+{ arr[i]=c;
+if(arr[i-5]<=’ ‘  &&arr[i]<’ ‘
+&& (array[i-4]=='S' || array[i-4]=='s')
+&& (array[i-3]=='T' || array[i-3]=='t')
+&& (array[i-2]=='O' || array[i-2]=='o')
+&& (array[i-1]=='P' || array[i-1]=='p'))
+break;
+            a=getchar();
+  	}
+    b=i-5;
+    for(i=0; i<b; i++)
+    if(arr[i]>='a' && arr[i]<='z') arr[i]=32;
+    for(i=0; i<b; i++)
+   printf("%c", arr[i]);
+    return 0;
+}
+
